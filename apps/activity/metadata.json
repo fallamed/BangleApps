@@ -1,0 +1,15 @@
+{
+  "id": "activity",
+  "name": "My sport app",
+  "shortName": "Astra",
+  "version": "0.01",
+  "description": "Astra app",
+  "icon": "app.png",
+  "tags": "sport",
+  "supports": ["BANGLEJS2"],
+  "readme": "README.md",
+  "storage": [
+    { "name": "activity.app.js", "url": "app.js" },
+    { "name": "activity.img", "url": "app-icon.js", "evaluate": true }
+  ]
+}
