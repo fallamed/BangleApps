@@ -1,9 +1,9 @@
 {
-  "id": "activity",
-  "name": "My sport app",
-  "shortName": "Astra",
+  "id": "healthtrack",
+  "name": "Health Tracker",
+  "shortName": "Health Tracker",
   "version": "0.01",
-  "description": "Astra app",
+  "description": "An App that allow you to track all your health ",
   "icon": "app.png",
   "tags": "sport",
   "supports": ["BANGLEJS2"],
