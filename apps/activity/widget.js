@@ -1,19 +1,6 @@
 
-WIDGETS = {}; // <-- for development only
-
 (() => {
 
-NRF.on('connect', function () {
-  console.log("connected!")
-  g.clear();
-g.drawString("Connected!");
-})
-
-
-NRF.on('disconnect', function () {
-  g.clear();
-g.drawString("Disconnected :(");
-})
 
 var width = 24; 
 var bpm = 0;
@@ -33,7 +20,7 @@ counterInterval = setInterval(showHeart,50000);
     g.reset();
     g.setFontAlign(0,0);     
     g.drawRect(this.x, this.y, this.x+width-1, this.y+23);
-    g.setFont("6x8");
+    g.setFont("6x8",2);
     g.drawString(bpm, this.x+width/2, this.y+12);
   }
 
@@ -60,4 +47,3 @@ counterInterval = setInterval(showHeart,50000);
 })
 })()
 
-Bangle.drawWidgets(); 
