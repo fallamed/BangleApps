@@ -10,6 +10,6 @@
   "description": "An App that allow you to track all your health ",
   "tags": "sport",
   "storage": [
-    { "name": "activity.app.js", "url": "widget.js" },
+    { "name": "activity.app.js", "url": "widget.js" }
   ]
 }
