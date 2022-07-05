@@ -4,17 +4,6 @@ currently-running apps */
   function draw() {
     g.reset(); // reset the graphics context to defaults (color/font/etc)
     // add your code
-    NRF.on('connect', function () {
-      console.log("connected!")
-      g.clear();
-    g.drawString("Connected!");
-    })
-    
-    
-    NRF.on('disconnect', function () {
-      g.clear();
-    g.drawString("Disconnected :(");
-    })
     
     var width = 24; 
     var bpm = 0;
