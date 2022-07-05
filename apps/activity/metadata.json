@@ -2,14 +2,14 @@
   "id": "activity",
   "name": "Health Tracker",
   "shortName": "Health Tracker",
-  "version": "0.01",
-  "description": "An App that allow you to track all your health ",
   "icon": "app.png",
-  "tags": "sport",
-  "supports": ["BANGLEJS2"],
+  "version": "0.01",
+  "type": "widget",
+  "supports": ["BANGLEJS", "BANGLEJS2"],
   "readme": "README.md",
+  "description": "An App that allow you to track all your health ",
+  "tags": "sport",
   "storage": [
-    { "name": "activity.app.js", "url": "app.js" },
-    { "name": "activity.img", "url": "app-icon.js", "evaluate": true }
+    { "name": "activity.app.js", "url": "widget.js" },
   ]
 }
