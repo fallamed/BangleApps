@@ -1,8 +1,5 @@
-
-(() => {
-
-
-var width = 24; 
+(function(){
+  var width = 24; 
 var bpm = 0;
 
 function showHeart() {
@@ -44,6 +41,4 @@ counterInterval = setInterval(showHeart,50000);
         value: [bpm]
     }
   }
-})
-})()
-
+})();
