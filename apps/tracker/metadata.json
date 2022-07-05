@@ -1,0 +1,14 @@
+{ "id": "tracker",
+  "name": "herth rate monitor",
+  "shortName":"tracker",
+  "version":"0.01",
+  "description": "herth rate monitor",
+  "icon": "widget.png",  
+  "type": "widget",
+  "tags": "widget",
+  "supports" : ["BANGLEJS2"],
+  "readme": "README.md",
+  "storage": [
+    {"name":"tracker.wid.js","url":"widget.js"}
+  ]
+}
