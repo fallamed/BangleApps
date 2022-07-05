@@ -30,12 +30,6 @@ counterInterval = setInterval(showHeart,50000);
   }, 1000); 
 
   
-  WIDGETS["widheart"]={
-    area:"tl", 
-    width: width, 
-    draw:draw // called to draw the widget
-  };
-  
   NRF.setServices({
   "f8b23a4d-89ad-4220-8c9f-d81756009f0c": {
     "f8b23a4d-89ad-4220-8c9f-d81756009f0c": {
