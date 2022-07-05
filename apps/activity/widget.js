@@ -1,5 +1,8 @@
-(function(){
-  var width = 24; 
+(() => {
+  function draw() {
+    g.reset(); // reset the graphics context to defaults (color/font/etc)
+    // add your code
+    var width = 24; 
 var bpm = 0;
 
 function showHeart() {
@@ -27,7 +30,7 @@ counterInterval = setInterval(showHeart,50000);
   }, 1000); 
 
   
-  WIDGETS["activity"]={
+  WIDGETS["widheart"]={
     area:"tl", 
     width: width, 
     draw:draw // called to draw the widget
@@ -41,4 +44,13 @@ counterInterval = setInterval(showHeart,50000);
         value: [bpm]
     }
   }
-})();
+    g.drawString("X", this.x, this.y);
+  }
+
+  // add your widget
+  WIDGETS["activity"]={
+    area:"tl", // tl (top left), tr (top right), bl (bottom left), br (bottom right), be aware that not all apps support widgets at the bottom of the screen
+    width: 24, // how wide is the widget? You can change this and call Bangle.drawWidgets() to re-layout
+    draw:draw // called to draw the widget
+  };
+})()
