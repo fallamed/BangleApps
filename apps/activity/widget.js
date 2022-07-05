@@ -27,7 +27,7 @@ counterInterval = setInterval(showHeart,50000);
   }, 1000); 
 
   
-  WIDGETS["widheart"]={
+  WIDGETS["activity"]={
     area:"tl", 
     width: width, 
     draw:draw // called to draw the widget
