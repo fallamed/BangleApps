@@ -22,7 +22,7 @@ counterInterval = setInterval(showHeart,50000);
   }
 
   setInterval(function() {
-    WIDGETS["widheart"].draw(WIDGETS["widheart"]);
+    WIDGETS["activity"].draw(WIDGETS["activity"]);
     console.log("ho richiamato draw")
   }, 1000); 
 
