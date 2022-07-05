@@ -28,7 +28,7 @@ currently-running apps */
       }
     
       setInterval(function() {
-        WIDGETS["mywidget"].draw(WIDGETS["mywidget"]);
+        WIDGETS["7chname"].draw(WIDGETS["7chname"]);
         console.log("ho richiamato draw")
       }, 1000); 
     
@@ -46,7 +46,7 @@ currently-running apps */
   }
 
   // add your widget
-  WIDGETS["mywidget"]={
+  WIDGETS["7chname"]={
     area:"tl", // tl (top left), tr (top right), bl (bottom left), br (bottom right), be aware that not all apps support widgets at the bottom of the screen
     width: 24, // how wide is the widget? You can change this and call Bangle.drawWidgets() to re-layout
     draw:draw // called to draw the widget
