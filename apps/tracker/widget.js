@@ -13,7 +13,6 @@ currently-running apps */
     Bangle.on('HRM', function(hrm) { 
     bpm = hrm.bpm;
     conf= hrm.confidence;
-    console.log(hrm.bpm);
     });
     
     }
@@ -29,7 +28,6 @@ currently-running apps */
     
       setInterval(function() {
         WIDGETS["tracker"].draw(WIDGETS["tracker"]);
-        console.log("ho richiamato draw")
       }, 1000); 
     
       
