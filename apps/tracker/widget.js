@@ -51,4 +51,4 @@ currently-running apps */
     width: 24, // how wide is the widget? You can change this and call Bangle.drawWidgets() to re-layout
     draw:draw // called to draw the widget
   };
-})()
+})();
